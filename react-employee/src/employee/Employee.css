@@ -1,0 +1,12 @@
+.margin {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.emp {
+    margin-top : 20px;
+}
+.center {
+    display: flex;
+    justify-content: center;
+}

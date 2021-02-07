@@ -1,0 +1,13 @@
+ <div>
+                 <h1>Employee List</h1>
+                       {
+                         this.props.list.map (
+                            (emp,i) => (
+                                    <div  key={i}>
+                                    {emp.name}      {emp.exp}
+                                    </div>
+                            )
+                         )
+                        }
+
+                </div>
